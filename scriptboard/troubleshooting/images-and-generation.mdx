@@ -1,0 +1,12 @@
+---
+title: "Troubleshoot image generation"
+description: "Fix missing images, failed renders, and reference problems."
+---
+
+# Troubleshoot image generation
+
+If a frame shows a title but no image, wait for the render to finish and retry once. Check that the provider key is configured on the server, not in client-side source code, and inspect the network error for the failed asset URL.
+
+For character images, confirm the appearance details and references are filled in before generating. For storyboard frames, confirm the referenced character and location entries exist and that the prompt includes the intended visual direction.
+
+If a generation fails after consuming credits, save the project name, action, timestamp, and error message so support can trace the usage event.

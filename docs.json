@@ -31,7 +31,58 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Start here",
+        "icon": "rocket",
+        "pages": [
+          "scriptboard/index",
+          "scriptboard/getting-started/create-project",
+          "scriptboard/getting-started/import-script"
+        ]
+      },
+      {
+        "group": "Creative workspace",
+        "icon": "film",
+        "pages": [
+          "scriptboard/workspace/script",
+          "scriptboard/workspace/characters-and-locations",
+          "scriptboard/workspace/storyboard",
+          "scriptboard/workspace/magik-and-context"
+        ]
+      },
+      {
+        "group": "Collaboration",
+        "icon": "users",
+        "pages": [
+          "scriptboard/collaboration/share-and-permissions"
+        ]
+      },
+      {
+        "group": "Account",
+        "icon": "gear",
+        "pages": [
+          "scriptboard/account/plans-and-credits",
+          "scriptboard/account/profile-and-data"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "circle-question",
+        "pages": [
+          "scriptboard/troubleshooting/imports-and-pdfs",
+          "scriptboard/troubleshooting/images-and-generation"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
