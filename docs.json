@@ -34,13 +34,6 @@
     },
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
         "group": "Start here",
         "icon": "rocket",
         "pages": [
